@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Домашнее задание №2 : ");
         int sPS1 = 123;
         int ePS1 = 250;
         int sPS2 =223;
@@ -20,7 +21,7 @@ public class Main {
         } else if ((sPS1 < ePS1 && ePS1 < sPS2 && sPS2 < ePS2) || (sPS1 > ePS1 && ePS1 > sPS2 && sPS2 > ePS2) || (sPS1< ePS1 && ePS1>ePS2 && sPS2<ePS2&&ePS2<sPS1)) {
             System.out.println(" Прямые не пересекаются ");
         }else{
-            System.out.println("  Некоректный ввод  ");
+            System.out.println(" !!! Некоректный ввод !!! ");
         }
     }
 }
